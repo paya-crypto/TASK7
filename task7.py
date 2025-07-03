@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC
 
 # Step 1: Load Dataset
-df = pd.read_csv("C:/Users/jay30/OneDrive/Documents/myprojects/python/Iris.csv")
+df = pd.read_csv("C:/Users/PAYAL MAHARANA/OneDrive/Documents/python/Iris.csv")
 
 # Step 2: Filter for Binary Classification (Setosa = 0, Versicolor = 1)
 df = df[df['Species'].isin(['Iris-setosa', 'Iris-versicolor'])]
